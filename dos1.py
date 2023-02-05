@@ -2,7 +2,7 @@ import socket
 import threading
 import time
 start_time = time.time()
-target = 'irnshk.ir'
+target = 'site'
 port = 80
 count=50
 thr=10000
